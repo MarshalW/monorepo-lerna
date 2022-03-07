@@ -1,5 +1,5 @@
 {
-  "name": "simple-service",
+  "name": "mw-simple-service",
   "version": "0.1.2",
   "description": "",
   "main": "index.js",
@@ -12,5 +12,5 @@
   "devDependencies": {
     "typescript": "^4.6.2"
   },
-  "gitHead": "b78e48964c179f9e49749ecb6a7372e62b422dc7"
+  "gitHead": "b210216efca37eac3ef78680a462841935a34e94"
 }
