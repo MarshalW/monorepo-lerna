@@ -26,6 +26,10 @@ lerna add typescript --dev
 lerna add natural packages/simple-nlp
 lerna add @types/natural packages/simple-nlp
 
+# 编写子项目的 tsconfig.json
+# 增加子项目的 package.json, 加入 scripts tsc:tsc
+# lerna run tsc # 编译所有子项目
+
 # 编写simple-nlp逻辑
 
 # 编写simple-service占位逻辑

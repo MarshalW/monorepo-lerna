@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo test OK"
+    "test": "echo test OK",
+    "tsc": "tsc"
   },
   "keywords": [],
   "author": "",
