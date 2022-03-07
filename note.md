@@ -25,6 +25,9 @@ lerna add @types/natural packages/simple-nlp
 
 # 编写simple-service占位逻辑
 
-# push to remote 
+# push to remote
+
+lerna version # 应没有报错，交互方式更新本地子项目version
+
 
 ```
