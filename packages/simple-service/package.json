@@ -2,7 +2,8 @@
   "name": "mw-simple-service",
   "version": "0.1.4",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "test": "echo test OK.",
     "tsc": "tsc"
@@ -16,5 +17,8 @@
   "gitHead": "b210216efca37eac3ef78680a462841935a34e94",
   "dependencies": {
     "mw-simple-nlp": "^0.1.4"
-  }
+  },
+  "files": [
+    "lib/**/*"
+  ]
 }
