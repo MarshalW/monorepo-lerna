@@ -2,7 +2,8 @@
   "name": "mw-simple-nlp",
   "version": "0.1.4",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "test": "echo test OK",
     "tsc": "tsc"
@@ -16,5 +17,8 @@
   "dependencies": {
     "@types/natural": "^5.1.0",
     "natural": "^5.1.13"
-  }
+  },
+  "files": [
+    "lib/**/*"
+  ]
 }

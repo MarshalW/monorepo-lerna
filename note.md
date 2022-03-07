@@ -42,6 +42,11 @@ lerna version # 应没有报错，交互方式更新本地子项目version
 
 
 # 确保代码已经提交
-lerna publish #
+lerna publish 
+
+npm run publish # root项目增加 "publish": "lerna run tsc && lerna publish"
+
+# linking packages
+lerna add mw-simple-nlp --scope=mw-simple-service
 
 ```
