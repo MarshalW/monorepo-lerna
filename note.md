@@ -25,5 +25,6 @@ lerna add @types/natural packages/simple-nlp
 
 # 编写simple-service占位逻辑
 
+# push to remote 
 
 ```
