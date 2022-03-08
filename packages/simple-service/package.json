@@ -4,6 +4,10 @@
   "description": "",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "bin": {
+    "fake-service": "index.js"
+  },
+  "type": "module",
   "scripts": {
     "test": "echo test OK.",
     "tsc": "tsc"
@@ -19,6 +23,7 @@
     "mw-simple-nlp": "^0.1.5"
   },
   "files": [
-    "lib/**/*"
+    "lib/**/*",
+    "index.js"
   ]
 }
