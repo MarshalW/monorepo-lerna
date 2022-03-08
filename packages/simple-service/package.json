@@ -7,7 +7,6 @@
   "bin": {
     "mw-simple-service": "index.js"
   },
-  "type": "module",
   "scripts": {
     "test": "echo test OK.",
     "tsc": "tsc"
