@@ -1,6 +1,6 @@
 {
   "name": "mw-simple-service",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "description": "",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -21,7 +21,7 @@
   "gitHead": "b210216efca37eac3ef78680a462841935a34e94",
   "dependencies": {
     "fastify": "^4.0.0-alpha.1",
-    "mw-simple-nlp": "^0.1.9"
+    "mw-simple-nlp": "^0.1.10"
   },
   "files": [
     "lib/**/*",
