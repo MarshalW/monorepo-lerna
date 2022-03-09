@@ -2,7 +2,7 @@
 
 演示通过 lerna 实现 monorepo，包括 2 个 package 项目。
 
-## 使用说明
+## 发布
 
 前提：已经全局安装 `lerna`
 
@@ -58,3 +58,19 @@ lerna info versioning independent
   Utilities:
     Git: 2.30.0 - /usr/local/bin/git
 ```
+
+## 使用
+
+```bash
+# 安装 mw-simple-service
+$ npm i mw-simple-service --global
+
+# 启动
+$ mw-simple-service
+
+# 测试服务是否正常使用
+$ curl -d '{"content":"Last week I went to the theatre. I had a very good seat. The play was very interesting. I did not enjoy it. A young man and a young woman were sitting behind me. "}' -H "Content-Type: application/json" -X POST http://localhost:3000
+
+{"lines":["Last week I went to the theatre.","I had a very good seat.","The play was very interesting.","I did not enjoy it.","A young man and a young woman were sitting behind me."]}
+```
+
