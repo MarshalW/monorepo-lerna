@@ -10,7 +10,7 @@
   },
   "scripts": {
     "test": "echo test OK.",
-    "tsc": "tsc"
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
